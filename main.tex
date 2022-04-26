@@ -5,6 +5,13 @@
 \hyphenpenalty=10000
 \hbadness=10000
 
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.4}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=darkblue,
+}
+    
 \begin{document}
 
 \fontfamily{ppl}\selectfont
@@ -43,7 +50,18 @@
     \csection{EXPERIENCE}{\small
         \begin{itemize}
             % item 1 %
-            \item \expContent{AAPKA SARTHI\hspace{5mm} \clink{\href{https://play.google.com/store/apps/details?id=com.aapkasarthi&hl=en_IN}{[Play Store]}}}
+            \item \expContent{\href{https://retailpulse.ai}{RETAIL PULSE} \hspace{5mm} \clink{\href{https://play.google.com/store/apps/details?id=club.kirana}{[Play Store]}}}
+            {JAN,2022 - PRESENT}
+            {REACT NATIVE INTERN}
+            {
+                \begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt]
+                    \item Working on a React Native application for kirana store owners, scaled that from \textbf{1L to 3L downloads with 75K+ monthly active users}.
+                    \item Technologies Used: \textbf{React Native, Redux, Firebase}
+                \end{itemize}
+            }
+
+            \item \expContent{\href{https://aapkasarthi.com}{AAPKA SARTHI}\hspace{5mm} \clink{\href{https://play.google.com/store/apps/details?id=com.aapkasarthi&hl=en_IN}{[Play Store]}}}
+            {AUG,2020 - DEC,2020}
             {REACT NATIVE FREELANCER}
             {
                 \begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt]
@@ -51,10 +69,10 @@
                     \item Technologies Used: \textbf{React Native(TypeScript), Redux}
                 \end{itemize}
             }
-            {AUG,2020 – DEC,2020}
 
             % item 2 %
             \item \expContent{SOLERA LIFE SCIENCES PVT LTD}
+            {MAY. 2020 - JULY, 2020}
             {REACT NATIVE INTERN}
             {
                 \begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt]
@@ -63,55 +81,52 @@
                     \item Technologies Used: \textbf{React Native, NodeJS, Redux, MongoDB, Socket.io}
                 \end{itemize}
             }
-            {MAY. 2020 - JULY, 2020}
         \end{itemize}
     }
     \csection{PROJECTS}{\small
         \begin{itemize}
-            \item \expContent{STUED \hspace{5mm} \clink{\href{https://play.google.com/store/apps/details?id=com.stued.StuEd&hl=en_IN}{[Play Store]}}}
-            {STUDY, EARN, EDUCATE}
+            \item \expContent{
+                CHALLENGEMII 
+                \hspace{4mm} \clink{\href{https://challengemii-website.web.app/}{[Website]}}
+                \hspace{2mm} \clink{\href{https://github.com/vasu2001/challengemii}{[GitHub]}} 
+            }
+            {APR. 2021 - JUN. 2021}
+            {COMPETITION PLATFORM}
             {
                 \begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt]
-                    \item Built an app for college students to study from their peers.
-                    % \item Built backend and data architecture for storing all the records in firebase.
-                    \item Added a secured \textbf{payment gateway(RazorPay)}. 
-                    \item Added \textbf{Push Notification} service for reminders.
-                    \item Technologies Used: \textbf{Android SDK(Java), Firebase(Auth, RealtimeDB)}
+                    \item Developed and hosted a \textbf{PWA} for hosting online competitions.
+                    % \item Built coin system with \textbf{admin dashboard} and referral links.
+                    % \item Integrated \textbf{OAuth} login via Google, Facebook \& Twitter.
+                    \item Technologies Used: \textbf{ReactJS, Firebase(Firestore, Cloud Functions, Hosting)}
                 \end{itemize}
             }
-            {NOV. 2019 FEB. 2020}
 
             \item \expContent{
                 SILENCER 
                 \hspace{5mm} \clink{\href{https://www.linkedin.com/posts/vasu-aggarwal-659b2a19a_reactnative-nodejs-activity-6688436977974484992-rNLB/}{[Demo]}}
                 \hspace{5mm} \clink{\href{https://github.com/vasu2001/Silencer}{[GitHub]}} 
             }
+            {JUL. 2020}
             {LEARNING COMPANION}
             {
                 \begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt]
                     \item Developed an app to learn facts effectively using Leitner System
-                    \item Built \textbf{REST api} and data models for storing all the records.
+                    % \item Built \textbf{REST api} and data models for storing all the records.
                     \item \raggedright{Technologies Used: \textbf{React Native(TypeScript), NodeJS, ExpressJS, MongoDB}}
                 \end{itemize}
             }
-            {JUL. 2020}
 
-            \item \expContent{
-                CHALLENGEMII 
-                \hspace{5mm} \clink{\href{https://challengemii-website.web.app/}{[Website]}}
-                \hspace{5mm} \clink{\href{https://github.com/vasu2001/challengemii}{[GitHub]}} 
-            }
-            {COMPETITION PLATFORM}
+            \item \expContent{STUED \hspace{5mm} \clink{\href{https://play.google.com/store/apps/details?id=com.stued.StuEd&hl=en_IN}{[Play Store]}}}
+            {NOV. 2019 - FEB. 2020}
+            {STUDY, EARN, EDUCATE}
             {
                 \begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt]
-                    \item Developed and hosted a \textbf{PWA} for hosting online competitions.
-                    % \item Built coin system with \textbf{admin dashboard} and referral links.
-                    \item Integrated \textbf{OAuth} login via Google, Facebook \& Twitter.
-                    \item Technologies Used: \textbf{ReactJS, Firebase(Firestore, Cloud Functions, Hosting)}
+                    \item Built an app for college students to study from their peers.
+                    % \item Built backend and data architecture for storing all the records in firebase.
+                    \item Integrated \textbf{in-app payments(RazorPay)} \& \textbf{Push Notifications} for reminders.
+                    \item Technologies Used: \textbf{Android SDK(Java), Firebase(Auth, RealtimeDB)}
                 \end{itemize}
             }
-            {APR. 2021 - JUN. 2021}
-
            \end{itemize}
     }
 
@@ -122,6 +137,9 @@
             \item Global Rank \textbf{37 out of 2000+} participants in CodeChef CODERS (Div. 2)
             \item Specialist at Codeforces, rating=1437, \clink{\href{https://codeforces.com/profile/vasu2001}{[vasu2001]}}
             \item Selected in \textbf{top 600 participants out of 35.5K} to attend Pulicis Sapient's JumpStart event 2021
+            \item Solved \textbf{350+ questions} on Leetcode, \clink{\href{https://leetcode.com/vasu2001/}{[vasu2001]}}
+            \item Authored an article on medium with \textbf{3.6K views \& 16+ hours of reading time}, \clink{\href{https://medium.com/@vasudhruv1920/react-native-catching-upto-flutter-in-performance-with-react-native-skia-a7d3395d6196}{[React Native catching upto Flutter in performance with React Native Skia]}}
+            \item Organised a intercollege hackathon \clink{\href{https://www.hackinsummer.live}{[Hackin' Summer '22]}}
         \end{itemize}
     }
 } 
@@ -147,7 +165,7 @@
             \item \frcontent
                 {BTech - CSE}
                 {Jaypee Institute of Information Technology, Noida-62}
-                {CGPA - 8.3 \textit{(Current)}}
+                {CGPA - 8.0 \textit{(Current)}}
                 {2019 - 2023}
 
             \item \frcontent
@@ -168,19 +186,20 @@
        \begin{itemize}
             \item \expContent
                 {Technical Coordinator}
+                {SEP, 2020 – PRESENT}
                 {DEVELOPER STUDENT CLUB, JIIT-62}
                 {
                     \begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt]
                         \item Conducted a workshop on basic Web Development, taught basics of JavaScript
-                        \item Developed website for \textit{International Conference On Informatics \clink{\href{https://ici-conference.com}{{ICI-2022}}}}
+                        \item Developed website for \clink{\href{https://ici-conference.com}{{ICI-2022}}}
                     \end{itemize}
                 }
                 % {Conducted a workshop on basic Web Development, taught basics of JavaScript.}
                 % {}
-                {SEP, 2020 – PRESENT}
        \end{itemize}
     }
 }
+
 \end{tabularx}
 \end{center}
 \end{document}

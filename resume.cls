@@ -40,11 +40,11 @@
 
 \newenvironment{expContent}[4]{
     {
-        \textbf{#1} \leavevmode\newline
+        \textbf{#1} \hfill \footnotesize{#2} \leavevmode\newline
         {\footnotesize	
-            \ifthenelse{\equal{#2}{}}{}{{#2 \leavevmode}}
-            {#3 \leavevmode}
-            \ifthenelse{\equal{#4}{}}{}{{\textit{#4}}}
+            \ifthenelse{\equal{#3}{}}{}{{#3}}
+            {#4}
+            % \ifthenelse{\equal{#4}{}}{}{{\textit{#4}}}
         }
     }
 }{}
